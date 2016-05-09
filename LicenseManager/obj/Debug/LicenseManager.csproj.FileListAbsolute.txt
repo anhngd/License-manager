@@ -1,0 +1,5 @@
+F:\Projects\LicenseManager\LicenseManager\bin\Debug\LicenseManager.dll
+F:\Projects\LicenseManager\LicenseManager\bin\Debug\LicenseManager.pdb
+F:\Projects\LicenseManager\LicenseManager\obj\Debug\LicenseManager.csprojResolveAssemblyReference.cache
+F:\Projects\LicenseManager\LicenseManager\obj\Debug\LicenseManager.dll
+F:\Projects\LicenseManager\LicenseManager\obj\Debug\LicenseManager.pdb

@@ -1,0 +1,11 @@
+F:\Projects\LicenseManager\LicenseManager.Generator\bin\Debug\LicenseManager.Generator.exe
+F:\Projects\LicenseManager\LicenseManager.Generator\bin\Debug\LicenseManager.Generator.pdb
+F:\Projects\LicenseManager\LicenseManager.Generator\obj\Debug\LicenseManager.Generator.Properties.Resources.resources
+F:\Projects\LicenseManager\LicenseManager.Generator\obj\Debug\LicenseManager.Generator.csproj.GenerateResource.Cache
+F:\Projects\LicenseManager\LicenseManager.Generator\obj\Debug\LicenseManager.Generator.exe
+F:\Projects\LicenseManager\LicenseManager.Generator\obj\Debug\LicenseManager.Generator.pdb
+F:\Projects\LicenseManager\LicenseManager.Generator\obj\Debug\LicenseManager.Generator.csprojResolveAssemblyReference.cache
+F:\Projects\LicenseManager\LicenseManager.Generator\obj\Debug\LicenseManager.Generator.frmGenerateKey.resources
+F:\Projects\LicenseManager\LicenseManager.Generator\obj\Debug\LicenseManager.Generator.frmMain.resources
+F:\Projects\LicenseManager\LicenseManager.Generator\bin\Debug\LicenseManager.dll
+F:\Projects\LicenseManager\LicenseManager.Generator\bin\Debug\LicenseManager.pdb
