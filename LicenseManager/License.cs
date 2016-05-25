@@ -20,6 +20,8 @@ namespace LicenseManager
         /// </summary>
         public string Signature { get; set; }
 
+        public string Hashed { get; set; }
+
         #endregion
 
         #region Methods

@@ -35,9 +35,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(371, 46);
+            this.button1.Location = new System.Drawing.Point(395, 57);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 56);
             this.button1.TabIndex = 0;
             this.button1.Text = "Generate";
             this.button1.UseVisualStyleBackColor = true;
@@ -45,25 +45,27 @@
             // 
             // txtPubKey
             // 
-            this.txtPubKey.Location = new System.Drawing.Point(12, 93);
+            this.txtPubKey.Dock = System.Windows.Forms.DockStyle.Left;
+            this.txtPubKey.Location = new System.Drawing.Point(0, 0);
             this.txtPubKey.Multiline = true;
             this.txtPubKey.Name = "txtPubKey";
-            this.txtPubKey.Size = new System.Drawing.Size(369, 248);
+            this.txtPubKey.Size = new System.Drawing.Size(369, 465);
             this.txtPubKey.TabIndex = 1;
             // 
             // txtPrvKey
             // 
-            this.txtPrvKey.Location = new System.Drawing.Point(442, 93);
+            this.txtPrvKey.Dock = System.Windows.Forms.DockStyle.Right;
+            this.txtPrvKey.Location = new System.Drawing.Point(500, 0);
             this.txtPrvKey.Multiline = true;
             this.txtPrvKey.Name = "txtPrvKey";
-            this.txtPrvKey.Size = new System.Drawing.Size(369, 248);
+            this.txtPrvKey.Size = new System.Drawing.Size(369, 465);
             this.txtPrvKey.TabIndex = 2;
             // 
             // frmGenerateKey
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(869, 353);
+            this.ClientSize = new System.Drawing.Size(869, 465);
             this.Controls.Add(this.txtPrvKey);
             this.Controls.Add(this.txtPubKey);
             this.Controls.Add(this.button1);

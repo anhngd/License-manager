@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -20,7 +21,10 @@ namespace LicenseManager.Generator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(4096);
+            Stopwatch st = new Stopwatch();
+            st.Start();
+            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(8192);
+
             //Pair of public and private key as XML string.
             //Do not share this to other party
             string publicPrivateKeyXML = rsa.ToXmlString(true);
@@ -29,7 +33,7 @@ namespace LicenseManager.Generator
 
             txtPubKey.Text = publicOnlyKeyXML;
             txtPrvKey.Text = publicPrivateKeyXML;
-            var fileName = Guid.NewGuid().ToString();
+            var fileName = "key"; //Guid.NewGuid().ToString();
             var fs = new FileStream(fileName+ ".prv", FileMode.Create, FileAccess.Write);
             var sw = new StreamWriter(fs);
             sw.Write(publicPrivateKeyXML);
@@ -38,6 +42,8 @@ namespace LicenseManager.Generator
             sw = new StreamWriter(fs);
             sw.Write(publicOnlyKeyXML);
             sw.Flush();
+            st.Stop();
+            MessageBox.Show(st.Elapsed.ToString());
         }
     }
 }
