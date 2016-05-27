@@ -17,7 +17,8 @@ namespace LicenseManager
         public static string GetServerProductId()
         {
             var curVersion = Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion");
-            var pid = curVersion?.GetValue("ProductId").ToString();
+            if (curVersion == null) return string.Empty;
+            var pid = curVersion.GetValue("ProductId").ToString();
             return pid;
         }
 

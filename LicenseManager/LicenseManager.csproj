@@ -56,13 +56,6 @@
     <Compile Include="Library\ProductKey.cs" />
     <Compile Include="License.cs" />
     <Compile Include="LicenseAuthorization.cs" />
-    <Compile Include="Pages\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serializer.cs" />
   </ItemGroup>
@@ -70,9 +63,7 @@
     <None Include="LicenseManager.snk" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pages\Default.aspx">
-      <SubType>ASPXCodeBehind</SubType>
-    </Content>
+    <Folder Include="Pages\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

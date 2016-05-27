@@ -1,0 +1,8 @@
+F:\Projects\LicenseManager\LicenseManager.WebPages\bin\LicenseManager.WebPages.dll.config
+F:\Projects\LicenseManager\LicenseManager.WebPages\bin\LicenseManager.WebPages.dll
+F:\Projects\LicenseManager\LicenseManager.WebPages\bin\LicenseManager.WebPages.pdb
+F:\Projects\LicenseManager\LicenseManager.WebPages\bin\LicenseManager.dll
+F:\Projects\LicenseManager\LicenseManager.WebPages\bin\LicenseManager.pdb
+F:\Projects\LicenseManager\LicenseManager.WebPages\obj\Debug\LicenseManager.WebPages.csprojResolveAssemblyReference.cache
+F:\Projects\LicenseManager\LicenseManager.WebPages\obj\Debug\LicenseManager.WebPages.dll
+F:\Projects\LicenseManager\LicenseManager.WebPages\obj\Debug\LicenseManager.WebPages.pdb
