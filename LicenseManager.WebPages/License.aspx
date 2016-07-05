@@ -14,6 +14,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <legend>THÔNG TIN BẢN QUYỀN</legend>
         <div class="col-md-12">
             <div class="col-md-12">
                 <div class="col-md-4"></div>

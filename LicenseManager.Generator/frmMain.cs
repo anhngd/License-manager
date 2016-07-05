@@ -28,7 +28,7 @@ namespace LicenseManager.Generator
         private void frmMain_Load(object sender, EventArgs e)
         {
             txtProductID.Text = "";
-            txtProductWin.Text = Core.GetServerProductId();
+            txtProductWin.Text = Core.GetCpuId();
             txtHDDID.Text = Core.GetHddSerialNo();
 
             txtAppIDs.Text = "A25EB515-C0FA-474C-941E-1684BB84F147";
